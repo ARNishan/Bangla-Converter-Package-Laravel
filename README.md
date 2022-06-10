@@ -6,3 +6,27 @@
 [![GitHub license](https://img.shields.io/github/license/ARNishan/Bangla-Converter-Package-Laravel)](https://github.com/ARNishan/Bangla-Converter-Package-Laravel)
 
 Bangla/Bengali string transformation library which can convert Bangla string Unicode/Avro to Bijoy and also Bijoy to Avro
+
+## Using
+
+Just create a Translate Class instance and then call the predefined function.
+
+```php
+    $translator = new \ArNishan\BanglaConverter\Translate;
+    $translator->unicodeToBijoy('আমার সোনার বাংলা');
+    $translator->bijoyToUnicode('Avgvi ‡mvbvi evsjv');
+    
+```
+
+Or use the facade:
+
+```php
+    use ArNishan\BanglaConverter\Facade\Translator;
+    $translator = Translator::unicodeToBijoy('আমার সোনার বাংলা');
+    $translator = Translator::bijoyToUnicode('Avgvi ‡mvbvi evsjv');
+
+```
+
+### License
+
+This Bangla Converter for Laravel is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
