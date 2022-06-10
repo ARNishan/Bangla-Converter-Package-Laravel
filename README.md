@@ -7,6 +7,13 @@
 
 Bangla/Bengali string transformation library which can convert Bangla string Unicode/Avro to Bijoy and also Bijoy to Avro
 
+## Installation
+
+### Laravel
+Require this package in your composer.json and update composer. This will download the package and the libraries also.
+
+    composer require ar_nishan/bangla_converter
+
 ## Using
 
 Just create a Translate Class instance and then call the predefined function.
