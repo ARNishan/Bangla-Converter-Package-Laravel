@@ -1,0 +1,26 @@
+{
+    "name": "ar_nishan/bangla_converter",
+    "description": "Bangla/Bengali string transformation library which can convert Bangla string Unicode/Avro to Bijoy and also Bijoy to Avro",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ArNishan",
+            "email": "nishanrahman1994@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "ArNishan\\BanglaConverter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArNishan\\BanglaConverter\\TranslatorServiceProvider"
+            ]
+        }
+    },
+}
