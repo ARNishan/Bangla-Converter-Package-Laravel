@@ -1,6 +1,7 @@
 <?php
 namespace ArNishan\BanglaConverter;
 use Illuminate\Support\ServiceProvider;
+use ArNishan\BanglaConverter\Translate;
 
 class TranslatorServiceProvider extends ServiceProvider{
 
@@ -11,6 +12,9 @@ class TranslatorServiceProvider extends ServiceProvider{
 
     public function register()
     {
+        $this->app->bind('translate', function() {
+            return new Translate();
+        });
 
     }
 
