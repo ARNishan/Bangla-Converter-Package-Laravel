@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {},
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "ArNishan\\BanglaConverter\\": "src/"
         }
