@@ -9,7 +9,7 @@
             "email": "nishanrahman1994@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload-dev": {
         "psr-4": {
