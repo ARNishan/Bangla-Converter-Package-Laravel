@@ -14,7 +14,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "ArNishan\\BanglaConverter\\": "src/"
+            "ArNishan\\BanglaConverter\\": "src"
         }
     },
     "extra": {
