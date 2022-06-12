@@ -7,7 +7,6 @@ class TranslatorServiceProvider extends ServiceProvider{
 
     public function boot()
     {
-        require __DIR__ . '/../vendor/autoload.php';
 
     }
 
